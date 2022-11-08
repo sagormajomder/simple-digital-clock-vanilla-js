@@ -83,9 +83,10 @@ const counter = function (n) {
 
 const mainFunction = function () {
    const time = new Date();
-   date.textContent = `${getDays(time)}, ${getMonths(
-      time
-   )} ${time.getDate()}, ${time.getFullYear()}`;
+
+   // date.textContent = `${getDays(time)}, ${getMonths(
+   //    time
+   // )} ${time.getDate()}, ${time.getFullYear()}`;
 
    let hrs = time.getHours();
 
